@@ -5,6 +5,27 @@
           box-sizing: border-box;
 }
 
+.displey-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.a-j-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 ul {
   margin: 0;
   margin: 10px 0;
@@ -20,6 +41,10 @@ ul li a {
   color: rgba(255, 255, 255, 0.55);
   padding: 8px;
   font-size: 18px;
+}
+
+ul li a:hover {
+  color: #c9d3db;
 }
 
 .nav-info {
@@ -45,8 +70,11 @@ header h1 {
 }
 
 .icon {
+  border-radius: 4.5px;
+  padding-left: 7px;
+  padding-top: 3px;
   font-size: 24px;
-  height: 55px;
+  height: 50px;
   width: 55px;
 }
 /*# sourceMappingURL=main.css.map */

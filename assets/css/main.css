@@ -77,4 +77,8 @@ header h1 {
   height: 50px;
   width: 55px;
 }
+
+.card-body p {
+  padding-bottom: 0;
+}
 /*# sourceMappingURL=main.css.map */
